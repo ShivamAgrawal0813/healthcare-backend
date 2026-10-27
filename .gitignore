@@ -1,0 +1,91 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Databases & Backups
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.dump
+*.sql
+
+# Django Runtime, Media & Static
+*.log
+local_settings.py
+media/
+staticfiles/
+static_root/
+
+# Local Seed, Verification & Scratch Scripts
+seed_data.py
+seed*.py
+*seed*.py
+verify_endpoints.py
+verify*.py
+*verify*.py
+show_db.py
+scratch/
+temp/
+tmp/
+
+# Postman Collections & Environments
+postman_collection.json
+*postman*.json
+*.postman_collection.json
+*.postman_environment.json
+
+# Scratch Output & Log Files (Preserve requirements.txt)
+*.txt
+!requirements.txt
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
